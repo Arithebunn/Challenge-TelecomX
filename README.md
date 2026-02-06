@@ -3,7 +3,7 @@ El desafío será recopilar, procesar y analizar los datos, utilizando Python y 
 
 📄 Abre  el archivo `TelecomX_LATAM.ipynb` para visualizar el código y el informe final. 
 
-📖 #### Diccionario de datos
+#### 📖 Diccionario de datos
 
 - `customerID`: número de identificación único de cada cliente
 - `Churn`: si el cliente dejó o no la empresa
