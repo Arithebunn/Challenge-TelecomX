@@ -1,6 +1,8 @@
 # Challenge-TelecomX
 El desafío será recopilar, procesar y analizar los datos, utilizando Python y sus principales bibliotecas para extraer información valiosa. A partir del análisis, el equipo de Data Science podrá avanzar en modelos predictivos y desarrollar estrategias para reducir la evasión.
 
+Abre  el archivo `TelecomX_LATAM.ipynb` para visualizar el código y el informe final.
+
 #### Diccionario de datos
 
 - `customerID`: número de identificación único de cada cliente
@@ -24,3 +26,9 @@ El desafío será recopilar, procesar y analizar los datos, utilizando Python y 
 - `PaymentMethod`: forma de pago
 - `Charges.Monthly`: total de todos los servicios del cliente por mes
 - `Charges.Total`: total gastado por el cliente
+
+
+
+## Autores
+| [<img src="https://avatars.githubusercontent.com/u/189813009?v=4" width=115><br><sub>Arithebunn</sub>](https://github.com/Arithebunn) |
+| :---: | 
