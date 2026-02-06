@@ -3,7 +3,20 @@ El desafío será recopilar, procesar y analizar los datos, utilizando Python y 
 
 📄 Abre  el archivo `TelecomX_LATAM.ipynb` para visualizar el código y el informe final. 
 
-#### 📖 Diccionario de datos
+# Cómo abrir el archivo `TelecomX_LATAM.ipynb`
+
+1. Asegúrate de tener **Python** instalado en tu computadora.
+2. Instala **Jupyter Notebook** ejecutando en la terminal: `pip install notebook`
+3. Abre la **terminal** (o símbolo del sistema).
+4. Dirígete a la carpeta donde se encuentra el archivo `.ipynb`.
+5. Ejecuta el comando: `jupyter notebook`
+6. Se abrirá Jupyter en tu navegador web.
+7. Haz clic sobre el archivo **.ipynb** para abrirlo.
+
+✅ El cuaderno quedará listo para usarse. ✨
+
+
+## 📖 Diccionario de datos
 
 - `customerID`: número de identificación único de cada cliente
 - `Churn`: si el cliente dejó o no la empresa
@@ -27,7 +40,7 @@ El desafío será recopilar, procesar y analizar los datos, utilizando Python y 
 - `Charges.Monthly`: total de todos los servicios del cliente por mes
 - `Charges.Total`: total gastado por el cliente
 
-El código se divide en 7 secciones:
+## ➗ El código se divide en 7 secciones:
 1. 📌 Extracción
 
 Se importaron los datos de la API de Telecom X. El archivo se encuentra disponible en este mismo repositorio con el nombre `TelecomX_Data`. Estos datos están disponibles en formato JSON y contienen información esencial sobre los clientes, incluyendo datos demográficos, tipo de servicio contratado y estado de evasión.
@@ -43,9 +56,12 @@ En esta sección:
 3. 📊 Carga y análisis
 
 - Se realiza un análisis descriptivo de los datos, calculando métricas como media, mediana, desviación estándar y otras medidas que ayuden a comprender mejor la distribución y el comportamiento de los clientes.
-- Se utilizan gráficos para visualizar la proporción de clientes que permanecieron y los que se dieron de baja.
-- Se explora cómo se distribuye la evasión según variables categóricas.
-- Se explora cómo las variables numéricas, como "total gastado" o "tiempo de contrato", se distribuyen entre los clientes que cancelaron (evasión) y los que no cancelaron.
+- Se utilizan gráficos para visualizar la proporción de clientes que permanecieron y los que se dieron de baja. Ejemplo:
+  <img src="proporcion_clientes.png" width="300">
+- Se explora cómo se distribuye la evasión según variables categóricas. Ejemplo:
+  ![](tipo_cliente.png)
+- Se explora cómo las variables numéricas, como "total gastado" o "tiempo de contrato", se distribuyen entre los clientes que cancelaron (evasión) y los que no cancelaron. Ejemplo:
+  ![](Variables_numericas.png)
 
 4. 📄 Informe final
 
